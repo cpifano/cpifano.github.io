@@ -1,6 +1,6 @@
-<img src="https://cpifano.github.io/img/favicon.png" alt="Header_image" style="zoom:25%;" align="left" />
+<img src="https://cpifano.github.io/img/favicon.png" alt="Header_image" style="zoom:25%; max-width: 100px;" align="left" />
 
-# Camilo Pifano Herrera - *CV*
+# Camilo Pifano Herrera - CV
 
 This is my online resume.
 
