@@ -1,476 +1,577 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Camilo Pifano Herrera - CV</title>
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		
+		<title>Camilo Pifano Herrera - CV</title>
 
-        <!-- ======= IMPORT LIBRARIES ============================================================================== -->
+		<meta name="description" content="Camilo Pifano Herrera - CV" />
+		<meta name="keywords" content="Camilo, Pifano, Herrera, cpifano, camilo.pifano, curriculum, vitae, resume, cv" />
+		<meta name="author" content="Camilo Pifano Herrera" />
+		
+		<link rel="shortcut icon" href="./img/favicon.png">
+
+		<!-- ======= IMPORT LIBRARIES ============================================================================== -->
         <!-- Bootstrap -->
         <link rel="stylesheet" href="includes/bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css" />
         <script src="includes/bootstrap-5.0.0-beta3-dist/js/bootstrap.bundle.min.js"></script>
 
         <!-- Typed JS -->
-        <script src="includes/typed-2.0.12/typed.min.js"></script>
+        <script src="./includes/typed-2.0.12/typed.min.js"></script>
 
-        <!-- AOS / Animate On Scroll Library -->
+		<!-- AOS / Animate On Scroll Library -->
         <link rel="stylesheet" href="includes/aos-2.3.4/aos.css">
         <script src="includes/aos-2.3.4/aos.js"></script>
 
         <!-- Font Awesome -->
-        <link rel="stylesheet" href="includes/fontawesome-free-5.15.3-web/css/all.css">
+        <link rel="stylesheet" href="./includes/fontawesome-free-5.15.3-web/css/all.css">
 
-        <!-- Core CSS -->
-        <link rel="stylesheet" href="css/core.css">
+		<!-- Classie -->
+		<script src="./includes/classie-1.0.1/classie.js"></script>
 
-        <!-- Core JS -->
+		<!-- Core CSS -->
+		<link rel="stylesheet" type="text/css" href="./css/core.css" />
+
+		<!-- Core JS -->
         <script src="js/core.js"></script>
         <!-- ======================================================================================================= -->
-    </head>
-    <body>
-        <!-- ======= START HEADER SECTION ========================================================================== -->
-        <section id="secHeader" class="d-flex flex-column justify-content-center">
-            <div class="container" data-aos="zoom-in" data-aos-delay="100">
-                <h1>Camilo Pifano Herrera</h1>
-                <p><span id="spanTyped" data-typed-items="FullStack Developer, Web Developer/Designer, Sysadmin"></span></p>
-                <div class="social-links">
-                    <a href="mailto:camilopifano@gmail.com" class="google"><i class="fab fa-google"></i></a>
-                    <a href="https://github.com/cpifano" class="github"><i class="fab fa-github"></i></a>
-                    <a href="https://bitbucket.org/cpifano/" class="bitbucket"><i class="fab fa-bitbucket"></i></a>
-                    <a href="https://www.npmjs.com/~cpifano" class="npm"><i class="fab fa-npm"></i></a>
-                </div>
-            </div>
-        </section>
-        <!-- ======= END HEADER SECTION ============================================================================ -->
+	</head>
+	<body>
+		<div id="main-container" class="main-container intro-effect-side">
+
+			<!-- ======= START HEADER SECTION ========================================================================== -->
+			<div class="top-nav clearfix">
+				<span class="top-left"><a href="https://github.com/cpifano"><i class="fas fa-arrow-left"></i> Back to GitHub</a></span></a>
+			</div>
+
+			<header class="header">
+				<div class="bg-img"><img src="img/banner.jpg" alt="Background Image" /></div>
+				<div class="title">
+					<h1 class="name">Camilo Pifano Herrera</h1>
+					<p class="subline">
+						<span id="spanTyped" data-typed-items="Developer, Web Designer, DevOps"></span>
+					</p>
+					<p>
+						<a href="https://github.com/cpifano" class="github"><i class="fab fa-github"></i></a>
+						<a href="https://bitbucket.org/cpifano/" class="bitbucket"><i class="fab fa-bitbucket"></i></a>
+						<a href="https://www.npmjs.com/~cpifano" class="npm"><i class="fab fa-npm"></i></a>
+						&nbsp;
+					</p>
+					<p>
+						I was born in Buenos Aires - Argentina. I currently live in Montevideo - Uruguay and I have worked remotely in openDICOM (Uruguay) since January 2021 as a developer and technician, providing support to various health systems inside and outside the country.
+						I consider myself a proactive person, with a restless spirit and that is why I am constantly in search of knowledge of the latest trends in information technology.
+						
+						<br/><br/>
+						
+						<span class="secondary-color">24<sup>th</sup> May 1988 | <i class="fas fa-birthday-cake fa-fw" title="Date of birth"></i></span><br/>
+						<span class="secondary-color">camilopifano@gmail.com | <i class="far fa-envelope fa-fw" title="Email address"></i></span><br/>
+						<span class="secondary-color">(+598) 98 384 355 | <i class="fas fa-phone fa-fw" title="Phone number"></i></span><br/>
+                    </p>
+				</div>
+			</header>
+
+			<button class="trigger" data-info="Click here to begin"></button>
+			<i id="scroll-down" class='fas fa-arrow-down'></i>
+			<!-- ======= END HEADER SECTION ============================================================================ -->
 
 
-        <!-- ======= START ABOUT SECTION =========================================================================== -->
-        <section id="secAbout">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>ABOUT</h2>
-                </div>
-                    
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img src="img/profile.jpg" class="img-fluid" alt="">
-                    </div>
+			<!-- ======= START SKILLS SECTION ========================================================================== -->
+			<section id="secSkills" class="dark">
+				<div class="container" data-aos="fade-up">
+					
+					<div class="section-title">
+						<h2 class="dark">Skills</h2>
+						<p class="fourth-color"><small>These are some of tools that I have worked with over the years in different fields of work.</small></p>
+					</div>
+						
+					<div class="row voffset2 skills-content text-center">
+						<div class="col-lg-4 mb-5 mt-5 callout" data-aos="fade-right" data-aos-delay="100">
+							<h4>Web Designer</h4>
+							<i class="fas fa-ellipsis-h fa-sm tertiary-color"></i>
+							<table class="table fourth-color">
+								<tr><td><small>HTML5, CSS</small></td></tr>
+								<tr><td><small>Wordpress</small></td></tr>
+								<tr><td><small>Bootstrap, Angular Material</small></td></tr>
+								<tr><td><small>Matomo Analytics</small></td></tr>
+							</table>
+						</div>
+	
+						<div class="col-lg-4 callout">
+							<h4>Developer</h4>
+							<i class="fas fa-ellipsis-h fa-sm tertiary-color"></i>
+							<table class="table fourth-color">
+								<tr><td><small>Javascript, Typescript, NodeJS</small></td></tr>
+								<tr><td><small>ReactiveX, Angular</small></td></tr>
+								<tr><td><small>Phyton, Django, JetAdmin</small></td></tr>
+								<tr><td><small>PHP, Rust</small></td></tr>
+								<tr><td><small>MySQL, MongoDB</small></td></tr>
+								<tr><td><small>XML, MD</small></td></tr>
+							</table>
+						</div>
+							
+						<div class="col-lg-4 mb-5 mt-5 callout" data-aos="fade-left" data-aos-delay="100">
+							<h4>DevOps</h4>     
+							<i class="fas fa-ellipsis-h fa-sm tertiary-color"></i>             
+							<table class="table fourth-color">
+								<tr><td><small>VMWare ESXi</small></td></tr>
+								<tr><td><small>Docker, Kubernetes</small></td></tr>
+								<tr><td><small>Linux server</small></td></tr>
+								<tr><td><small>Shell Scripting</small></td></tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ======= END SKILLS SECTION ============================================================================ -->
 
-                    <div class="col-lg-8 pt-4 pt-lg-0 content">
-                        <h3>Personal data</h3>
-                        <br/>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <ul>
-                                    <li><i class="fas fa-chevron-right"></i> <strong>Date of birth:</strong> <span>24<sup>th</sup> May 1988</span></li>
-                                    <li><i class="fas fa-chevron-right"></i> <strong>Email address:</strong> <span>camilopifano@gmail.com</span></li>
-                                    <li><i class="fas fa-chevron-right"></i> <strong>Phone number:</strong> <span>(+598) 98 384 355</span></li>
-                                    <li><i class="fas fa-chevron-right"></i> <strong>Home address:</strong> <span>Juan Ortiz 3157 (Post Code: 11600)</span></li>
-                                </ul>
+			
+			<!-- ======= START JOBS EXPERIENCE SECTION ================================================================= -->
+			<section id="secResume" data-aos="fade-up">
+				<div class="container section-title">
+					<h2>Work experience</h2>
+				</div>
+
+				<div class="container">
+					<div class="main-timeline">
+
+                        <!-- start experience section-->
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month"><small>Present</small></span>
+                                    	<span class="year">2021</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h5 class="tm-title first-color">Developer, PACS Manager and Technical Support</h5>
+								<h6 class="secondary-color">opendicom</h6>
+                                <p class="description fourth-color">
+                                    Development and technical support to various health systems inside and outside the country.<br/>
+									Constant manipulation of DICOM objects and protocols.<br/>
+									Maintenance and development of the RIDI platform (Integrated Network for Diagnostic Imaging), nationwide.<br/>
+									PACS Management.<br/>
+									Remote assistance via VPN.<br/>
+									<br/>
+									<small>
+										<span class="secondary-color">opendicom designs and develops web services for:</span><br/>
+										<span class="first-color">
+											• Visualization of medical images from the internet, tablets and cell phones.<br/>
+											• Access to several PACS from the same page.<br/>
+											• Integration of legacy PACS without migration process.
+										</span>
+									</small>
+                                </p>
                             </div>
                         </div>
-                        <hr/>
-                        <p>
-                            My name is Camilo, I was born in Buenos Aires - Argentina. I currently live in Montevideo - Uruguay and I have worked remotely in openDICOM (Uruguay) since January 2021 as a developer and technician, providing support to various health systems inside and outside the country.<br/>
-                            I consider myself a proactive person, with a restless spirit and that is why I am constantly in search of knowledge of the latest trends in information technology.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ======= END ABOUT SECTION ============================================================================= -->
+                        <!-- end experience section-->
 
-
-        <!-- ======= START SKILLS SECTION ========================================================================== -->
-        <section id="secSkills" class="dark">
-            <div class="container" data-aos="fade-up">
-                
-                <div class="section-title">
-                    <h2 class="dark">SKILLS</h2>
-                    <p>These are some of tools that I have worked with over the years in different fields of work.</p>
-                </div>
-                    
-                <div class="row voffset2 skills-content text-center">
-                    <div class="col-lg-4 mb-5 mt-5 callout" data-aos="fade-right" data-aos-delay="100">
-                        <h4>Web Designer</h4>
-                        <table class="table">
-                            <tr><td><small>Wordpress</small></td></tr>
-                            <tr><td><small>Bootstrap</small></td></tr>
-                            <tr><td><small>Angular Material</small></td></tr>
-                            <tr><td><small>Tailwind CSS</small></td></tr>
-                            <tr><td><small>Matomo Analytics</small></td></tr>
-                        </table>
-                    </div>
-
-                    <div class="col-lg-4 callout">
-                        <h4>FullStack Developer</h4>
-                        <table class="table">
-                            <th colspan="2"><small>MEAN Stack</small></th>
-                            <tr>
-                                <td><small>Javascript</small></td>
-                                <td><small>Typescript</small></td>
-                            </tr>
-                            <tr>
-                                <td><small>NodeJS</small></td>
-                                <td><small>Deno</small></td>
-                            </tr>
-                            <tr>
-                                <td><small>Angular</small></td>
-                                <td><small>MongoDB</small></td>
-                            </tr>
-                        </table>
-                            
-                        <table class="table">
-                            <th colspan="2"><small>LAMP Stack</small></th>
-                            <tr>
-                                <td><small>HTML5</small></td>
-                                <td><small>CSS</small></td>
-                            </tr>
-                            <tr>
-                                <td><small>Javascript</small></td>
-                                <td><small>PHP</small></td>
-                            </tr>
-                            <tr>
-                                <td><small>MySQL</small></td>
-                                <td><small>MongoDB</small></td>
-                            </tr>
-                        </table>
-                            
-                        <table class="table">
-                        <th><small>Rust, Phyton, Django, JetAdmin</small></th>
-                        </table>      
-                    </div>
-                        
-                    <div class="col-lg-4 mb-5 mt-5 callout" data-aos="fade-left" data-aos-delay="100">
-                        <h4>Sysadmin</h4>                  
-                        <table class="table">
-                            <tr><td><small>VMWare ESXi</small></td></tr>
-                            <tr><td><small>Kubernetes</small></td></tr>
-                            <tr><td><small>Docker</small></td></tr>
-                            <tr><td><small>Linux server</small></td></tr>
-                            <tr><td><small>Shell Scripting</small></td></tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ======= END SKILLS SECTION ============================================================================ -->
-
-
-        <!-- ======= START RESUME SECTION ========================================================================== -->
-        <section id="secResume">
-            <div class="section-title" data-aos="fade-up">
-                <h2>RESUME</h2>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-                    <h4 class="timeline-title-left"><i class="fas fa-suitcase fa-sm"></i> · WORK EXPERIENCE</h4>
-                    <main class="left">
-                        <p class="timeline" year="Present 2021">
-                            <small>
-                                <strong class="title">DEVELOPER AND TECHNICAL SUPPORT</strong><br/>
-                                <i>openDICOM</i><br/>
-                                <i class="fas fa-chevron-right"></i> Development and technical support to various health systems inside and outside the country.<br/>
-                                <i class="fas fa-chevron-right"></i> Constant manipulation of DICOM objects and protocols.<br/>
-                                <i class="fas fa-chevron-right"></i> Maintenance and development of the RIDI platform (Integrated Network for Diagnostic Imaging), nationwide.<br/>
-                                <i class="fas fa-chevron-right"></i> PACS Management.<br/>
-                                <i class="fas fa-chevron-right"></i> Remote assistance.<br/>
-                                <br/>
-                                <strong>openDICOM designs and develops web services for:</strong><br/>
-                                • Visualization of medical images from the internet, tablets and cell phones.<br/>
-                                • Access to several PACS from the same page.<br/>
-                                • Integration of legacy PACS without migration process.
-                            </small>
-                        </p>
-
-                        <p class="timeline" year="2020 2015">
-                            <small>
-                                <strong class="title">HEAD OF IT DEPARTMENT</strong><br/>
-                                <i>CUDIM - Uruguayan Center for Molecular Imaging</i><br/>
-                                <i class="fas fa-chevron-right"></i> Planning and projection of maintenance strategies for the continuous improvement of both the infrastructure and the systems and services, whether they are internal or external development.<br/>
-                                <i class="fas fa-chevron-right"></i> Recommend possible hiring and/or termination of contracts with third parties that provide specific IT services.<br/>
-                                <i class="fas fa-chevron-right"></i> Management and integration of various projects under the compliance standards established within the institutional management commitments.<br/>
-                                <i class="fas fa-chevron-right"></i> Establish training plans and planning of annual leave for the sector.<br/>
-                                <i class="fas fa-chevron-right"></i> Member of the quality assurance committee and the center's security committee.<br/>
-                                <i class="fas fa-chevron-right"></i> Responsible for purchase orders for the sector.</br>
-                                <i class="fas fa-chevron-right"></i> Management and administration of the institutional mail system (GSuite).</br>
-                                <i class="fas fa-chevron-right"></i> Eventual remote administration (VPN).</br>
-                                <i class="fas fa-chevron-right"></i> The person in charge of the sector also fulfills the tasks corresponding to the <strong>IT technician</strong>.
-                            </small>
-                        </p>
-
-                        <p class="timeline" year="2015 2013">
-                            <small>
-                                <strong class="title">IT TECHNICIAN</strong><br/>
-                                <i>CUDIM - Uruguayan Center for Molecular Imaging</i><br/>
-                                <i class="fas fa-chevron-right"></i> Topics: Imaging IT (Digital medical history, RIS, PACS, DICOM, OsiriX, Horos, DICOM retrievers, CDAs, etc).<br/>
-                                <i class="fas fa-chevron-right"></i> Installation, configuration and maintenance of PC and Apple equipment.<br/>
-                                <i class="fas fa-chevron-right"></i> Management of infrastructure and structured cabling of the center, servers, storages, switches, routers, CCTV.<br/>
-                                <i class="fas fa-chevron-right"></i> Services and systems administration (VMWare ESXi, Docker, Linux server, Shell Scripting).<br/>
-                                <i class="fas fa-chevron-right"></i> FullStack Development (LAMP Stack, HTML5, CSS, Javascript, PHP, Python, Django, MySQL, MongoDB).<br/>
-                                                                     Documentation using version control systems (Git, Bitbucket, GitHub).<br/>
-                                <i class="fas fa-chevron-right"></i> PACS Manager - PACS (Picture Archiving Communication System) [dcm4chee, JBoss, MySQL, NTP].<br/>
-                                <i class="fas fa-chevron-right"></i> Register documentation of equipment, diagrams and control sheets in quality systems and control sheets according to the standards established in the center's quality assurance.
-                            </small>
-                        </p>
-
-                        <p class="timeline" year="2012 2011">
-                            <small>
-                                <strong class="title">IT TECHNICIAN</strong><br>
-                                <i>National Institute of Statistics (INE - Uruguay)</i><br/>
-                                <i class="fas fa-chevron-right"></i> Preparation of portable electronic devices (PDA, Laptops Plan Ceibal).<br/>
-                                <i class="fas fa-chevron-right"></i> Scripts for maintenance and installation tasks.<br/>
-                                <i class="fas fa-chevron-right"></i> Technical assistance in office and/or in person in the provinces during the 2011 Census period.
-                            </small>
-                        </p>
-
-                        <p class="timeline" year="2013 2006">
-                            <small>
-                                <strong class="title">FREELANCE</strong><br/>
-                                <i>LADINER S.A.</i><br/>
-                                <i class="fas fa-chevron-right"></i> Tasks concerning: repairing, installation, development and maintenance of equipment, networks, systems and services within the local infrastructure of the company.
-                            </small>
-                        </p>
-                    </main>
-                    <br/><br/><br/>
-                </div>
-
-                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-                    <h4 class="timeline-title-right"><i class="fas fa-book fa-sm"></i> · EDUCATIONAL HISTORY</h4>
-                    <main class="right">
-                        <p class="timeline" year="2011">
-                            <small>
-                                <span></span>
-                                    <strong class="title">SECONDARY TECHNOLOGICAL EDUCATION (EMT UY)</strong><br/>
-                                    <strong>HIGHSCHOOL DIPLOMA IN IT</strong><br/>
-                                    UTU - Universidad del Trabajo del Uruguay<br/>
-                                    <i>Instituto Tecnológico Superior Buceo</i>
-                                </span>
-                            </small>
-                        </p>
-
-                        <p class="timeline" year="2011 2012">
-                            <small>
-                                <strong class="title">TECHNICAL DEGREE IN NETWORKS <br/>AND TELECOMMUNICATIONS</strong><br/>
-                                UTU - Universidad del Trabajo del Uruguay<br/>
-                                <i>Instituto Tecnológico Superior Buceo</i>
-                            </small>
-                        </p>
-
-                        <p class="timeline" year="2014">
-                            <small>
-                                <strong class="title">PHP WEB DEVELOPER AND MYSQL</strong><br/>
-                                <i>Taller de Informática - Montevideo</i><br/>
-                                <i class="fas fa-chevron-right"></i> Complementary reading of official documentation (Online).
-                            </small>
-                        </p>
-
-                        <p class="timeline" year="2019">
-                            <small>
-                                <strong class="title">DOCKER DEVOPS</strong><br>
-                                <i>Udemy - Online platform course</i><br/>
-                                <i class="fas fa-chevron-right"></i> Complementary reading of official documentation (Online).
-                            </small>
-                        </p>
-
-                        <p class="timeline" year="2020">
-                            <small>
-                                <strong class="title">PYTHON DEVELOPER</strong><br/>
-                                <i>Código Facilito - Online platform course</i><br/>
-                                <br/>
-                                <strong class="title">DJANGO DEVELOPER</strong><br/>
-                                <i>Udemy & Código Facilito - Online platform course</i><br/>
-                                <br/>
-                                <strong class="title">GIT</strong><br/>
-                                <i>Código Facilito - Online platform course</i><br/>
-                                <i class="fas fa-chevron-right"></i> Complementary reading of official documentation (Online).<br/>
-                                <br/>
-                                <strong class="title">JOB SECURITY</strong><br/>
-                                <i>Nuclear Regulatory Authority of Argentina & CUDIM - Uruguayan Center for Molecular Imaging</i><br/>
-                                <i class="fas fa-chevron-right"></i> Safety culture in organizations, facilities and activities with sources of ionizing radiation.
-                            </small>
-                        </p>
-                        <p class="timeline" year="2020 2021">
-                            <small>
-                                <strong class="title">MEAN STACK DEVELOPER</strong><br/>
-                                <i>Various courses on online platforms</i><br/>
-                                <i class="fas fa-chevron-right"></i> Javascript (+ES6).<br/>
-                                <i class="fas fa-chevron-right"></i> Typescript.<br/>
-                                <i class="fas fa-chevron-right"></i> NodeJS.<br/>
-                                <i class="fas fa-chevron-right"></i> Deno.<br/>
-                                <i class="fas fa-chevron-right"></i> Angular.
-                            </small>
-                        </p>
-
-                        <p class="timeline" year="2021">
-                            <small>
-                                <strong class="title">RUST DEVELOPER</strong><br/>
-                                <i>Código Facilito - Online platform course</i><br/>
-                                <i class="fas fa-chevron-right"></i> Reading the official Rust book (2018 edition).<br/>
-                                <br/>
-                                <strong class="title">DJANGO DEVELOPER</strong><br/>
-                                <i class="fas fa-chevron-right"></i> Reading the official Django manual (Online).<br/>
-                                <i class="fas fa-chevron-right"></i> Reading the Django Book (Stack Overflow Contributors).<br/>
-                                <br/>
-                                <strong class="title">KUBERNETES</strong><br/>
-                                <i>Udemy - Online platform course</i><br/>
-                                <i class="fas fa-chevron-right"></i> Complementary reading of official documentation (Online).
-                            </small>
-                        </p>
-                    </main>
-
-                    <section class="events">
-                        <div class="container" data-aos="fade-left" style="padding-left: 10%">
-                            <br/><hr/>
-                            <h3 class="events-title">LANGUAGES</h3>
-                            <div class="events-item">
-                                <h4>English - Adults 1 & Adults 2 (A2 level)</h4>
-                                <h5>2014</h5>
-                                Dickens Institute - Montevideo
+                        <!-- start experience section-->
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">2020</span>
+                                    	<span class="year">2015</span>
+                                    </span>
+                                </div>
                             </div>
-                            <hr/>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </section>
-        <!-- ======= END RESUME SECTION ============================================================================ -->
-
-
-        <!-- ======= START EVENTS SECTION ========================================================================== -->
-        <section id="secEvents" class="medium events">
-            <div class="container" data-aos="fade-right">
-                <div class="section-title">
-                    <h2>ASSISTANCE AND PARTICIPATION IN EVENTS AND CONFERENCES</h2>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 d-none d-lg-block conference">
-                        <img class="col-lg-8" src="img/conference.png" alt="conference" />
-                    </div>
-
-                    <div class="col-lg-4">
-                        <h3 class="events-title">PHP Conference</h3>
-                        <div class="events-item">
-                            <h4>Konex Cultural City - Buenos Aires Argentina</h4>
-                            <h5>2014</h5>
-                        </div>
-
-                        <h3 class="events-title">JIAP - Computer Conference of Public and Private Administration</h3>
-                        <div class="events-item">
-                            <h4>City Hall Conference Center (IMM - Montevideo ROU)</h4>
-                            <h5>2008, 2009, 2010 - As an assistant</h5>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <h3 class="events-title">RAP Ceibal - Plan Ceibal support network</h3>
-                        <div class="events-item">
-                            <h4>Montevideo ROU</h4>
-                            <h5>2008 al 2009 - As a volunteer</h5>
-                        </div>
-
-                        <h3 class="events-title">Flisol - Latin American Festival of Free Software Installation</h3>
-                        <div class="events-item">
-                            <h4>ANTEL Telecommunications Tower - Montevideo ROU</h4>
-                            <h5>2009</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ======= END EVENTS SECTION ============================================================================ -->
-
-
-        <!-- ======= START REFERENCES SECTION ====================================================================== -->
-        <section id="secReferences">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>REFERENCES</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="text-center">
-                            <span class="fa-stack fa-2x">
-                                <i class="fas fa-circle fa-stack-2x stack-color"></i>
-                                <i class="fas fa-user-friends fa-stack-1x fa-inverse"></i>
-                            </span><br/><br/>
-                            <h5>PERSONAL</h5>
-                        </div>
-                        <hr/>
-                        <div class="row">
-                            <div class="table-responsive col-lg-6">
-                                <table class="table" style="text-align: right;">
-                                    <th><small>Eugenio Lacuesta</small></th>
-                                    <tr><td><small>Developer</small></td></tr>
-                                    <tr><td><small>(+598) 99 600 528</small></td></tr>
-                                </table>
-                            </div>
-                                
-                            <div class="table-responsive col-lg-6">
-                                <table class="table">
-                                    <th><small>Alexis Da Rosa</small></th>
-                                    <tr><td><small>Musician</small></td></tr>
-                                    <tr><td><small>(+598) 94 530 173</small></td></tr>
-                                </table>
+                            <div class="timeline-content">
+                                <h5 class="tm-title first-color">Head of IT Department</h5>
+								<h6 class="secondary-color">CUDIM - Uruguayan Center for Molecular Imaging</h6>
+                                <p class="description fourth-color">
+                                    Planning and projection of maintenance strategies for the continuous improvement of both the infrastructure and the systems and services, whether they are internal or external development.<br/>
+									Recommend possible hiring and/or termination of contracts with third parties that provide specific IT services.<br/>
+									Management and integration of various projects under the compliance standards established within the institutional management commitments.<br/>
+									Establish training plans and planning of annual leave for the sector.<br/>
+									Member of the quality assurance committee and the center's security committee.<br/>
+									Responsible for purchase orders for the sector.<br/>
+									Management and administration of the institutional mail system (GSuite).<br/>
+									Eventual remote administration (VPN).<br/>
+									The person in charge of the sector also fulfills the tasks corresponding to the IT technician.
+                                </p>
                             </div>
                         </div>
-                    </div>
-                        
-                    <div class="col-lg-6">
-                        <div class="text-center">
-                            <span class="fa-stack fa-2x">
-                                <i class="fas fa-circle fa-stack-2x stack-color"></i>
-                                <i class="fas fa-user-tie fa-stack-1x fa-inverse"></i>
-                            </span><br/><br/>
-                            <h5>WORK</h5>
-                        </div>
-                        <hr/>
-                        <div class="row">
-                            <div class="table-responsive col-lg-6">
-                                <table class="table" style="text-align: right;">
-                                    <th><small>Omar García</small></th>
-                                    <tr><td><small>CUDIM</small></td></tr>
-                                    <tr><td><small>(+598) 98 225 722</small></td></tr>
-                                </table>
+                        <!-- end experience section-->
+
+                        <!-- start experience section-->
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">2015</span>
+                                    	<span class="year">2013</span>
+                                    </span>
+                                </div>
                             </div>
-                                
-                            <div class="table-responsive col-lg-6">
-                                <table class="table">
-                                    <th><small>Carlos Casatti</small></th>
-                                    <tr><td><small>CUDIM</small></td></tr>
-                                    <tr><td><small>(+598) 99 104 359</small></td></tr>
-                                </table>
+                            <div class="timeline-content">
+                                <h5 class="tm-title first-color">IT Technician</h5>
+								<h6 class="secondary-color">CUDIM - Uruguayan Center for Molecular Imaging</h6>
+                                <p class="description fourth-color">
+                                    Topics: Imaging IT (Digital medical history, RIS, PACS, DICOM, OsiriX, Horos, DICOM retrievers, CDAs, etc).<br/>
+									Installation, configuration and maintenance of PC and Apple equipment.<br/>
+									Management of infrastructure and structured cabling of the center, servers, storages, switches, routers, CCTV.<br/>
+									Services and systems administration (VMWare ESXi, Docker, Linux server, Shell Scripting).<br/>
+									FullStack Development (LAMP Stack, HTML5, CSS, Javascript, PHP, Python, Django, MySQL, MongoDB).<br/>
+									Documentation using version control systems (Git, Bitbucket, GitHub).<br/>
+									PACS Manager - PACS (Picture Archiving Communication System) [dcm4chee, JBoss, MySQL, NTP].<br/>
+									Register documentation of equipment, diagrams and control sheets in quality systems and control sheets according to the standards established in the center's quality assurance.
+                                </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ======= END REFERENCES SECTION ======================================================================== -->
-        
+                        <!-- end experience section-->
 
-        <!-- ======= START FOOTER SECTION ========================================================================== -->
-        <section id="secFooter" class="dark text-center">
-            <div class="section-title" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="dark text-lowercase"><span class="text-capitalize">Thank</span> you for your visit</h2>
-                <p><small><i>Any questions you have, do not hesitate to contact me.</i></small></p>
-                <br/>
-                <div class="footer-links">
-                    <a href="mailto:camilopifano@gmail.com" class="google"><i class="fab fa-google"></i></a>
-                    <a href="https://github.com/cpifano" class="github"><i class="fab fa-github"></i></a>
-                    <a href="https://bitbucket.org/cpifano/" class="bitbucket"><i class="fab fa-bitbucket"></i></a>
-                    <a href="https://www.npmjs.com/~cpifano" class="npm"><i class="fab fa-npm"></i></a>
-                </div>
-            </div>
-        </section>
-        <!-- ======= END FOOTER SECTION ============================================================================ -->
+                        <!-- start experience section-->
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">2012</span>
+                                    	<span class="year">2011</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h5 class="tm-title first-color">IT Technician</h5>
+								<h6 class="secondary-color">National Institute of Statistics (INE - Uruguay)</h6>
+                                <p class="description fourth-color">
+                                    Preparation of portable electronic devices.<br/>[PDA, Laptops Plan Ceibal]<br/>
+									Scripts for maintenance and installation tasks.<br/>
+									Technical assistance in office and/or in person in the provinces during the 2011 Census period.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- end experience section-->
+
+						<!-- start experience section-->
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">2011</span>
+                                    	<span class="year">2006</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h5 class="tm-title first-color">Freelance</h5>
+								<h6 class="secondary-color">LADINER S.A.</h6>
+                                <p class="description fourth-color">
+                                    Tasks concerning: repairing, installation, development and maintenance of equipment, networks, systems and services within the local infrastructure of the company.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- end experience section-->
+					</div>
+				</div>
+        	</section>
+        	<!-- ======= END JOBS EXPERIENCE SECTION =================================================================== -->
 
 
-        <div id="divPreloader"></div>
+			<!-- ======= START EDUCATION SECTION ======================================================================= -->
+			<section id="secEducation" class="dark" data-aos="fade-up">
+				<div class="container">
+					<div class="section-title">
+						<h2>Education</h2>
+					</div>
+					<div class="row" data-aos="fade-left">
+						<div class="education-card col-lg-4">
+							<div class="card text-center">
+								<small>
+									<div class="card-header">
+										Technical Degree in Network and Telecommunications<br/>
+										<small class="secondary-color">Non-university tertiary</small>
+									</div>
+									<div class="card-body">
+										<h5 class="card-title">2011 - 2012</h5>
+										<h6 class="card-subtitle mb-2 text-muted">Instituto Tecnológico Superior Buceo</h6>
+										<p class="card-text">UTU - Universidad del Trabajo del Uruguay</p>
+									</div>
+								</small>
+							</div>
+						</div>
+
+						<div class="education-card col-lg-4">
+							<div class="card text-center">
+								<small>
+									<div class="card-header">
+										Secondary Technological Education (EMT UY)<br/>
+										<small class="secondary-color">Highschool Diploma in IT</small>
+									</div>
+									<div class="card-body">
+										<h5 class="card-title">2011 - 2008</h5>
+										<h6 class="card-subtitle mb-2 text-muted">Instituto Tecnológico Superior Buceo</h6>
+										<p class="card-text">UTU - Universidad del Trabajo del Uruguay</p>
+									</div>
+								</small>
+							</div>
+						</div>
+
+						<div class="education-card col-lg-4">
+							<div class="card text-center">
+								<small>
+									<div class="card-header">
+										PHP Web Developer and MySQL<br/>
+										<small class="secondary-color">Particular</small>
+									</div>
+									<div class="card-body">
+										<h5 class="card-title">2014</h5>
+										<h6 class="card-subtitle mb-2 text-muted">Taller de Informática</h6>
+										<p class="card-text">Montevideo</p>
+									</div>
+								</small>
+							</div>
+						</div>
+
+						<div class="education-card col-lg-4">
+							<div class="card text-center">
+								<small>
+									<div class="card-header">
+										Docker DevOps<br/>
+										<small class="secondary-color">Particular</small>
+									</div>
+									<div class="card-body">
+										<h5 class="card-title">2019</h5>
+										<h6 class="card-subtitle mb-2 text-muted">Udemy</h6>
+										<p class="card-text">Online platform</p>
+									</div>
+								</small>
+							</div>
+						</div>
+
+						<div class="education-card col-lg-4">
+							<div class="card text-center">
+								<small>
+									<div class="card-header">
+										Kubernetes<br/>
+										<small class="secondary-color">Particular</small>
+									</div>
+									<div class="card-body">
+										<h5 class="card-title">2021</h5>
+										<h6 class="card-subtitle mb-2 text-muted">Udemy</h6>
+										<p class="card-text">Online platform</p>
+									</div>
+								</small>
+							</div>
+						</div>
+
+						<div class="education-card col-lg-4">
+							<div class="card text-center">
+								<small>
+									<div class="card-header">
+										Job security<br/>
+										<small class="secondary-color">Internal training of the institution</small>
+									</div>
+									<div class="card-body">
+										<h5 class="card-title">2020</h5>
+										<h6 class="card-subtitle mb-2 text-muted">Nuclear Regulatory Authority of Argentina & CUDIM - Uruguayan Center for Molecular Imaging</h6>
+										<p class="card-text">Montevideo</p>
+									</div>
+								</small>
+							</div>
+						</div>
+					</div>
+
+					<div data-aos="fade-left">
+						<hr/>
+						
+						<h4><i class="fas fa-star fa-fw" style="color: #F7DD7C;"></i> Constant self-taught training</h4>
+						<small class="secondary-color"><small>My principal daily activities include completing courses on various technologies, be it through the use of online platforms or the reading of official documentation.</small></small>
+						<p>
+							<small>
+								<span class="badge badge-pill badge-secondary">Python</span>
+								<span class="badge badge-pill badge-secondary">Django</span>
+								<span class="badge badge-pill badge-secondary">Git</span>
+								<span class="badge badge-pill badge-secondary">Javascript</span>
+								<span class="badge badge-pill badge-secondary">Typescript</span>
+								<span class="badge badge-pill badge-secondary">NodeJS</span>
+								<span class="badge badge-pill badge-secondary">Deno</span>
+								<span class="badge badge-pill badge-secondary">ReactiveX</span>
+								<span class="badge badge-pill badge-secondary">Angular</span>
+								<span class="badge badge-pill badge-secondary">Rust</span>
+								<span class="badge badge-pill badge-secondary">Nginx</span>
+								<span class="badge badge-pill badge-secondary">SSL</span>
+								<span class="badge badge-pill badge-secondary">JWT</span>
+								<span class="badge badge-pill badge-secondary">MongoDB</span>
+								<span class="badge badge-pill badge-secondary">DICOM</span>
+							</small>
+						</p>
+
+						<hr/>
+
+					</div>
+
+					<div data-aos="fade-right" class="col-lg-12 text-right">
+						<h4><i class="fas fa-language first-color"></i> Languages</h4>
+						<small>
+							<small class="secondary-color">
+								<strong>English</strong> | Adults 1 & Adults 2 (A2 Level)
+								<br/>
+							</small>
+							<span class="first-color">
+								Dickens Institute - Montevideo <span class="badge badge-pill badge-secondary">2014</span>
+							</span>
+						</small>
+
+						<hr/>
+
+					</div>
+					
+				</div>
+			</section>
+			<!-- ======= END EDUCATION SECTION ========================================================================= -->
+
+
+			<!-- ======= START EVENTS SECTION ========================================================================== -->
+			<section id="secEvents" class="events">
+				<div class="container" data-aos="fade-right">
+					<div class="section-title">
+						<h2>Assistance and participation in events and conferences</h2>
+					</div>
+
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-3">
+								<div class="eventsTable">
+									<div class="eventsTable-header">
+										<div>
+											<span class="duration">PHP Conference</span><br/>
+											
+										</div>
+									</div>
+									<div class="event-content">
+										<ul>
+											<li>Konex Cultural City</li>
+											<li class="tertiary-color">Buenos Aires Argentina</li>
+										</ul>
+									</div>
+									<span class="badge badge-pill badge-event">2014</span>
+								</div>
+							</div>
+						
+							<div class="col-lg-3">
+								<div class="eventsTable">
+									<div class="eventsTable-header">
+										<div>
+											<span class="duration">JIAP</span><br/>
+											<small><small>Computer Conference of Public and Private Administration</small></small>
+										</div>
+									</div>
+									<div class="event-content">
+										<ul>
+											<li>City Hall Conference Center IMM</li>
+											<li class="tertiary-color">Montevideo ROU</li>
+										</ul>
+										<span class="assistance-type"><i class="fas fa-star fa-fw" style="color: #F7DD7C;"></i> As an assistant</span>
+									</div>
+									<span class="badge badge-pill badge-event">2008, 2009, 2010</span>
+								</div>
+							</div>
+
+							<div class="col-lg-3">
+								<div class="eventsTable">
+									<div class="eventsTable-header">
+										<div>
+											<span class="duration">RAP Ceibal</span><br/>
+											<small><small>Plan Ceibal support network</small></small>
+										</div>
+									</div>
+									<div class="event-content">
+										<ul>
+											<li class="tertiary-color">Montevideo ROU</li>
+										</ul>
+										<span class="assistance-type"><i class="fas fa-star fa-fw" style="color: #F7DD7C;"></i> As a volunteer</span>
+									</div>
+									<span class="badge badge-pill badge-event">Between 2008 2009</span>
+								</div>
+							</div>
+
+							<div class="col-lg-3">
+								<div class="eventsTable">
+									<div class="eventsTable-header">
+										<div>
+											<span class="duration">Flisol</span><br/>
+											<small><small>Latin American Festival of Free Software Installation</small></small>
+										</div>
+									</div>
+									<div class="event-content">
+										<ul>
+											<li>ANTEL Telecommunications Tower</li>
+											<li class="tertiary-color">Montevideo ROU</li>
+										</ul>
+									</div>
+									<span class="badge badge-pill badge-event">2009</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ======= END EVENTS SECTION ============================================================================ -->
+
+
+			<!-- ======= START PROJECTS SECTION ======================================================================= -->
+			<section id="secProjects" class="dark" data-aos="fade-left">
+				<div class="container">
+					<div class="section-title">
+						<h2>Personal projects</h2>
+					</div>
+					<div class="row">
+						<div class="education-card col-lg-4">
+							<div class="card text-center">
+								<div class="card-body">
+								<img class="col-lg-12" src="https://raw.githubusercontent.com/cpifano/lolo-backend/main/img/header.png" alt="Lolo Backend">
+								<hr/>
+								<p class="card-text">
+									<small><small><strong>Lolo Backend</strong> is a REST Framework and provides an automatic asynchronous CRUD backend server generator based on your models' definitions and validation rules for <strong>Node.js</strong> and <strong>MongoDB.</strong></small></small>
+								</p>
+								<hr/>
+								<small><a href="https://github.com/cpifano/lolo-backend">See on GitHub</a></small>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-8 text-left">
+							<p class="fourth-color">
+								
+								<small>
+									From the very start of my career, I have been attracted to the idea of undertaking Open Source projects.<br/>
+									Thus, I am currently developing my own tools and systems.<br/>
+									As these reach the required standard for public use, they are made available for those who wish to make use of them.
+								</small>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ======= END PROJECTS SECTION ========================================================================= -->
+
+
+			<!-- ======= START FOOTER SECTION ========================================================================== -->
+			<section id="secFooter" class="text-center">
+				<div class="section-title" data-aos="fade-up" data-aos-delay="100">
+					<h2 class="text-lowercase"><span class="text-capitalize">Thank</span> you for your visit</h2>
+					<p><small><i class="first-color">Any questions you have, do not hesitate to contact me.</i></small></p>
+					<br/>
+					<div class="footer-links">
+						<a href="https://github.com/cpifano" class="github"><i class="fab fa-github"></i></a>
+						<a href="https://bitbucket.org/cpifano/" class="bitbucket"><i class="fab fa-bitbucket"></i></a>
+						<a href="https://www.npmjs.com/~cpifano" class="npm"><i class="fab fa-npm"></i></a>
+					</div>
+				</div>
+			</section>
+			<!-- ======= END FOOTER SECTION ============================================================================ -->
+		</div>
+
+		<div id="divPreloader"></div>
         <a id="lnkBackToTop" class="back-to-top" href="#"><i class="fas fa-arrow-up"></i></a>
-    </body>
+	</body>
 </html>
