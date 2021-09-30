@@ -1,4 +1,22 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic|Playfair+Display:700);
+/*--------------------------------------------------------------*/
+/* FONTS:                                                       */
+/*--------------------------------------------------------------*/
+@font-face{
+	font-family: Lora;
+	src: url('../fonts/Lora-MediumItalic.ttf');
+}
+
+@font-face{
+	font-family: Playfair;
+	src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face{
+	font-family: Raleway;
+	src: url('../fonts/Raleway-Regular.ttf');
+}
+/*--------------------------------------------------------------*/
+
 
 /*--------------------------------------------------------------*/
 /* NORMALIZE:                                                   */
@@ -58,6 +76,7 @@ a:hover {
 h1, h2, h3 {
 	font-family: 'Lora', serif;
 	font-style: italic;
+    font-weight: 400;
 }
 
 h4, h5, h6 {
@@ -1009,7 +1028,7 @@ section.dark{
 }
 
 .intro-effect-sidefixed .title h1 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair', serif;
 	font-weight: 700;
 	padding: 0 0 0.5em 0;
 	color: #585a66;
